@@ -5,7 +5,7 @@ module.exports = {
     fontFamily: {
       title: ["Sora", "sans-serif"],
       sans: ["Sen", "sans-serif"],
-    },
+    }
   },
   plugins: [],
 };

@@ -1,5 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
+
+import Card from "../components/Card.astro";
 ---
 
 <Layout title="Don't ask to ask">
@@ -9,6 +11,78 @@ import Layout from "../layouts/Layout.astro";
       <h2 class="text-xl font-semibold font-title text-gray-500">
         please don't wait to ask. just ask.
       </h2>
+    </div>
+
+    <div class="mt-8">
+      <p>Don't say to say, just say it.</p>
+
+      <p class="mt-4">
+        We've all noticed how some people in the workplace tend to dither or ask
+        for permission before getting to the point.
+      </p>
+
+      <p class="mt-4">
+        Let's be real here, nobody has time to waste on small talk or asking for permission to
+        speak. It's a waste of time, it confuses things, and it can come across as a lack of
+        confidence in your own ideas.
+
+		Just ask people to fucking say it and get straight to the point.
+      </p>
+
+	  <p class="mt-4">
+		For example, instead of saying:
+
+		<Card>Can we talk about [topic] later?</Card>
+
+		Or, even worse:
+		<Card>Can I call you later to discuss something?</Card>
+
+		These are extremely ineffective modes of communication.
+		Wait for the user to respond so he can understand the problem, or what's the discussion of the core topic to work together on, or any such situation, as they lack proper information.
+		Making the other person wait for you to respond is a waste of time and energy, and it delays the communication process for both parties.
+	  </p>
+
+	  <p class="mt-4">
+		It's much much better to say:
+		<Card>
+			Hey, I'm working on [topic], and it's about [description]. I'm having some trouble with it, such as [issues].
+			Can you look into this and let me know what you think/How I can fix it? And, if this is complicated to solve
+			over text, we can have a call, as per your availability, if you're willing.
+		</Card>
+
+		This shows that you are confident in the importance of the topic and that you value the other person's time.
+	  </p>
+
+	  <p class="mt-4">
+		Instead of asking for approval to share information or ask a question, just say it. Asynchronous communication through text or
+		email is often more efficient than waiting for a call or meeting. It also allows for more thought and consideration before
+		responding, which can lead to better outcomes.
+	  </p>
+
+	  <p class="mt-4">
+		Additionally, it's important to remember that not everyone may be available for a call or meeting at the same time.
+		Asynchronous communication allows for a more flexible schedule and reduces the need for coordination.
+	  </p>
+
+	  <p class="mt-4">
+		TL;DR: Be specific and clear about what you want to discuss, don't beat around the bush or ask for permission, and
+		consider using asynchronous communication methods like text or email for efficient communication. Calls and meetings
+		should be reserved for more complex topics that require more discussion.
+
+		Also, don't be afraid to ask for help. It's okay to ask for help, and it's okay to not know everything. We're all
+		learning and growing, and we're all here to help each other.
+	  </p>
+
+	  <!-- Add a well-styled beautiful list of resources -->
+	  <p class="mt-4 text-gray-500 text-md">
+		Resources:
+		<ul class="list-disc list-inside">
+			<li><a href="https://xyproblem.info/">The XY problem</a></li>
+			<li><a href="https://nohello.net/">No hello</a></li>
+			<li><a href="https://stackoverflow.com/help/how-to-ask">How to ask questions</a></li>
+			<li><a href="http://catb.org/~esr/faqs/smart-questions.html">How to ask questions, smartly</a></li>
+		</ul>
+		</p>
     </div>
   </div>
 </Layout>
